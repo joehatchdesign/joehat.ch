@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name=viewport content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href=favicon.ico type="image/x-icon">
 <link rel=icon href="/favicon.ico" type="image/x-icon">
 <title>Joe Hatch - Digital Developer from London - joehat.ch</title>
 <style>html{align-items:center;background:white;display:flex;height:100%;justify-content:center;}
@@ -13,7 +13,7 @@ a:first-child{margin-left:0;}
 a:hover{border-bottom-color:#333;}</style>
 </head>
 <body>
-<img src=joehatch-welcome.png alt="Joe Hatch" height="75" width="75" onclick="faceTouch()">
+<img src=joehatch-welcome.png alt="Joe Hatch" height=75 width=75 onclick="faceTouch()">
 <h1>joehat.ch</h1>
 <p>
 I'm Joe Hatch, a web developer from London. I solve complex digital problems and drink coffee.
@@ -23,11 +23,6 @@ I'm Joe Hatch, a web developer from London. I solve complex digital problems and
 &bull;
 <a href="mailto:honeypot@joehat.ch">Email</a>
 </p>
-<script>
-const a=document.querySelector('a:last-child');a.href=a.href.replace('honeypot','hello');
-function faceTouch(){
-alert("At least take me for a coffee before you try and touch my face")
-}
-</script>
+<script>const a=document.querySelector('a:last-child');a.href=a.href.replace('honeypot','hello');function faceTouch(){alert("At least take me for a coffee before you try and touch my face")}</script>
 </body>
 </html>
