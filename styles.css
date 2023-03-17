@@ -70,7 +70,7 @@
 
 .title {
     font-size: 1.2rem;
-    color: #888;
+    color: #6e6e6e;
     margin-bottom: 1rem;
     font-weight: 300;
 }
@@ -82,7 +82,7 @@
 }
 
 .social-icon {
-    color: #888;
+    color: #6e6e6e;
     transition: color 0.3s;
 }
 
